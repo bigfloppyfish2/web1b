@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script>
+        function mostrar() {
+            document.getElementById("informacion").innerHTML = "Hola quetalllojakfdkqnknfdqnqk"
+        }
+        function esconder() {
+            document.getElementById("informacion").innerHTML = ""
+        }
+        function gato() {
+            document.getElementById("imagen").src = "cat.jfif";
+        }
+        function godfrey() {
+            document.getElementById("imagen").src = "godfrey.jfif";
+        }
+    </script>
+</head>
+<body>
+    <h1>JavaScript</h1>
+    <h2>Alerts</h2>
+    
+    <p>Al hacer click en el enlace se abre una ventana.</p>
+    <a href="javascript:alert('gilipollas')">Click aquí</a> <br>
+
+    <p>Al hacer click, podemos llamar a una función.</p>
+    <button onclick="alert('kabum')">pulsa</button>
+
+    <h2>Cambiar contenido de la página</h2>
+    <p id="informacion"></p>
+    <button onclick="mostrar()">Muestra información</button>
+    <br> <br>
+    <button onclick="esconder()">Esconder info</button>
+
+    <h2>Nueva</h2>
+    <p>Para ir a youtube haz clic <a href="javascript:window.open('https://youtube.com')">aquí</a></p>
+    <br>
+    <h2>Cambiar imgs</h2>
+    <button onclick="gato">gato</button>
+    <button onclick="godfrey">godfrey</button>
+    <img id="imagen" src="" alt="">
+</body>
+</html>

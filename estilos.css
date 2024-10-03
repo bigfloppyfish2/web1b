@@ -1,0 +1,54 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+ body {
+     background-color: rgb(248, 242, 239);
+     margin: 10px;
+ }
+        h1 {
+            color: #382d2d;
+        }
+        h2 {
+            color: #0c0909;
+            margin-bottom: 30px;
+            margin-top: 30px;
+        }
+
+        form {
+            padding: 10px;
+        }
+
+        img {
+            width: 300;
+            height:auto;
+            border: 2px solid #346;
+            margin-right: 10px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        #flogin{
+            background-color: rgb(171, 154, 204);
+        }
+
+        #fregistro{
+            background-color: rgb(204, 128, 176);
+        }
+
+        #cabecera {
+            background-color: #E7CCCC;
+            padding: 30px;
+        }
+
+        a {
+            text-decoration: rgb(100, 69, 114);
+        }
+
+        a:hover{
+            color: rgb(116, 179, 241);
+        }
+
+        a:hover {
+            color:rgb(100, 100, 235)
+        }
